@@ -136,13 +136,14 @@ class PianoViewController: UIViewController {
     // F_h= 30
     
     
-    
-    @IBAction func Cbtn(_ sender: Any) {
+    @IBAction func Cbtn(_ sender: AnyObject) {
         playMyFile(fname: "C")
         count += 1
         xpos = xpos+75
         placeviewsemibreve(xcoord: xpos, ycoord: 78)
     }
+    
+   
     @IBAction func Dbtn(_ sender: Any) {
         count += 1
         xpos = xpos+75
@@ -182,7 +183,7 @@ class PianoViewController: UIViewController {
     @IBAction func C_hbtn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "C4")
+        playMyFile(fname: "Ch")
         placeviewsemibreve(xcoord: xpos, ycoord: 36)
     }
     
@@ -190,78 +191,81 @@ class PianoViewController: UIViewController {
     @IBAction func D_hbtn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "D4")
-        placeviewsemibreve(xcoord: xpos, ycoord: 30)
+        playMyFile(fname: "Dh")
+        placeviewsemibreve(xcoord: xpos, ycoord: 38)
     }
 
-    @IBAction func E_hbtn(_ sender: Any) {
+    @IBAction func E_hbtn(_ sender: AnyObject) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "E4")
+        playMyFile(fname: "Eh")
         placeviewsemibreve(xcoord: xpos, ycoord: 24)
     }
     
-    @IBAction func F_hbtn(_ sender: Any) {
+    @IBAction func F_hbtn(_ sender: AnyObject) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "F4")
-        placeviewsemibreve(xcoord: xpos, ycoord: 18)
+        playMyFile(fname: "Fh")
+        placeviewsemibreve(xcoord: xpos, ycoord: 30)
     }
+ 
     
     // place a sharp sign before these notes
     @IBAction func Csh_btn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "C#")
+        playMyFile(fname: "Csh")
         placeviewsemibreve(xcoord: xpos, ycoord: 12)
     }
     @IBAction func Dsh_btn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "D#")
+        playMyFile(fname: "Dsh")
         placeviewsemibreve(xcoord: xpos, ycoord: 6)
     }
     @IBAction func Fsh_btn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "F#")
+        playMyFile(fname: "Fsh")
         placeviewsemibreve(xcoord: xpos, ycoord: 0)
     }
     @IBAction func Gsh_btn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "G#")
+        playMyFile(fname: "Gsh")
         placeviewsemibreve(xcoord: xpos, ycoord: -6)
     }
     
     @IBAction func Ash_btn(_ sender: Any) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "A#")
+        playMyFile(fname: "Ash")
         placeviewsemibreve(xcoord: xpos, ycoord: -12)
     }
     
-    @IBAction func Csh_h_btn(_ sender: Any) {
+    @IBAction func Csh_h_btn(_ sender: AnyObject) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "C4#")
+        playMyFile(fname: "Csh h")
         placeviewsemibreve(xcoord: xpos, ycoord: 36)
     }
+   
     
-    @IBAction func Dsh_h_btn(_ sender: Any) {
+    @IBAction func Dsh_h_btn(_ sender: AnyObject) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "D4#")
+        playMyFile(fname: "Dsh h")
         placeviewsemibreve(xcoord: xpos, ycoord: 36)
     }
+
     
-    
-    @IBAction func Fsh_h_btn(_ sender: Any) {
+    @IBAction func Fsh_h_btn(_ sender: AnyObject) {
         count += 1
         xpos = xpos+75
-        playMyFile(fname: "F4#")
-        placeviewsemibreve(xcoord: xpos, ycoord: 36)
+        playMyFile(fname: "Fsh h")
+        placeviewsemibreve(xcoord: xpos, ycoord: 30)
     }
+
     
     
     

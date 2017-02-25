@@ -9,22 +9,16 @@
 /* Begin PBXBuildFile section */
 		7E1DC5BF4FF3429FEA7D083D /* Pods_convertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2BC37BAA6A1C2320C6398 /* Pods_convertTests.framework */; };
 		925263FF8FA5D732E8551F60 /* Pods_convertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD6D237ACC1088E44CF748BE /* Pods_convertUITests.framework */; };
+		9923CCC01E6214C5009367DC /* filtered piano in Resources */ = {isa = PBXBuildFile; fileRef = 9923CCBF1E6214C5009367DC /* filtered piano */; };
 		BE1DD16B1E3C351200C683B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD16A1E3C351200C683B7 /* AppDelegate.swift */; };
-		BE1DD16D1E3C351200C683B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD16C1E3C351200C683B7 /* ViewController.swift */; };
 		BE1DD1701E3C351200C683B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD16E1E3C351200C683B7 /* Main.storyboard */; };
 		BE1DD1721E3C351200C683B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD1711E3C351200C683B7 /* Assets.xcassets */; };
 		BE1DD1751E3C351200C683B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD1731E3C351200C683B7 /* LaunchScreen.storyboard */; };
 		BE1DD1801E3C351200C683B7 /* convertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD17F1E3C351200C683B7 /* convertTests.swift */; };
 		BE1DD18B1E3C351200C683B7 /* convertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1DD18A1E3C351200C683B7 /* convertUITests.swift */; };
-		BE6D75641E5B42000052E717 /* PlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D75631E5B42000052E717 /* PlotView.swift */; };
-		BE6D75661E5B43530052E717 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D75651E5B43530052E717 /* DisplayView.swift */; };
 		BE6D75681E5B45930052E717 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D75671E5B45930052E717 /* PianoViewController.swift */; };
-		BE6D756A1E5B5EDD0052E717 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D75691E5B5EDD0052E717 /* Pitch.swift */; };
-		BE6D756C1E5B5F730052E717 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D756B1E5B5F730052E717 /* Note.swift */; };
-		BE6D756E1E5B622A0052E717 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D756D1E5B622A0052E717 /* Tuner.swift */; };
 		BE6D75731E5D45BA0052E717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD16E1E3C351200C683B7 /* Main.storyboard */; };
 		BE6D75741E5D45BC0052E717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1DD16E1E3C351200C683B7 /* Main.storyboard */; };
-		BE6D75771E5D45FA0052E717 /* mantavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6D75711E5D3F470052E717 /* mantavViewController.swift */; };
 		BEC164561E45BF96007278CF /* sound in Resources */ = {isa = PBXBuildFile; fileRef = BEC164551E45BF96007278CF /* sound */; };
 		D07C870A9BB531D1392C2974 /* Pods_convert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD762E3FE5CDE0636603B0A /* Pods_convert.framework */; };
 /* End PBXBuildFile section */
@@ -48,17 +42,11 @@
 
 /* Begin PBXFileReference section */
 		0FD762E3FE5CDE0636603B0A /* Pods_convert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		11276BE5262BFB941ABA7173 /* Pods-convertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convertUITests/Pods-convertUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		49875FF81CBC384ADC3CDA79 /* Pods-convertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convertTests/Pods-convertTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5105917D19D59996147494E9 /* Pods-convertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-convertUITests/Pods-convertUITests.release.xcconfig"; sourceTree = "<group>"; };
-		51B283EA61B919E12C4DCFDD /* Pods-convert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convert/Pods-convert.debug.xcconfig"; sourceTree = "<group>"; };
-		60CDB4C301F5C6A5394558E7 /* Pods-convertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-convertTests/Pods-convertTests.release.xcconfig"; sourceTree = "<group>"; };
 		73D2BC37BAA6A1C2320C6398 /* Pods_convertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9923CCBF1E6214C5009367DC /* filtered piano */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "filtered piano"; path = "../MatlabToSwift-master/filtered piano"; sourceTree = "<group>"; };
 		AD6D237ACC1088E44CF748BE /* Pods_convertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEABBE76D0A5D3500D0C84B8 /* Pods-convert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convert.release.xcconfig"; path = "Pods/Target Support Files/Pods-convert/Pods-convert.release.xcconfig"; sourceTree = "<group>"; };
 		BE1DD1671E3C351200C683B7 /* convert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1DD16A1E3C351200C683B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE1DD16C1E3C351200C683B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE1DD16F1E3C351200C683B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE1DD1711E3C351200C683B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE1DD1741E3C351200C683B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,13 +57,7 @@
 		BE1DD1861E3C351200C683B7 /* convertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = convertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE1DD18A1E3C351200C683B7 /* convertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertUITests.swift; sourceTree = "<group>"; };
 		BE1DD18C1E3C351200C683B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE6D75631E5B42000052E717 /* PlotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlotView.swift; sourceTree = "<group>"; };
-		BE6D75651E5B43530052E717 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		BE6D75671E5B45930052E717 /* PianoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoViewController.swift; sourceTree = "<group>"; };
-		BE6D75691E5B5EDD0052E717 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
-		BE6D756B1E5B5F730052E717 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		BE6D756D1E5B622A0052E717 /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
-		BE6D75711E5D3F470052E717 /* mantavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mantavViewController.swift; sourceTree = "<group>"; };
 		BEC164551E45BF96007278CF /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sound; path = ../sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -121,11 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				BEC164551E45BF96007278CF /* sound */,
+				9923CCBF1E6214C5009367DC /* filtered piano */,
 				BE1DD1691E3C351200C683B7 /* convert */,
 				BE1DD17E1E3C351200C683B7 /* convertTests */,
 				BE1DD1891E3C351200C683B7 /* convertUITests */,
 				BE1DD1681E3C351200C683B7 /* Products */,
-				D3C09D55E6F9C05FF9C57A0C /* Pods */,
 				75F435D1EC2EAB9A428BDE47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -149,13 +131,6 @@
 				BE1DD1711E3C351200C683B7 /* Assets.xcassets */,
 				BE1DD1731E3C351200C683B7 /* LaunchScreen.storyboard */,
 				BE1DD1761E3C351200C683B7 /* Info.plist */,
-				BE6D75711E5D3F470052E717 /* mantavViewController.swift */,
-				BE1DD16C1E3C351200C683B7 /* ViewController.swift */,
-				BE6D756D1E5B622A0052E717 /* Tuner.swift */,
-				BE6D75691E5B5EDD0052E717 /* Pitch.swift */,
-				BE6D756B1E5B5F730052E717 /* Note.swift */,
-				BE6D75651E5B43530052E717 /* DisplayView.swift */,
-				BE6D75631E5B42000052E717 /* PlotView.swift */,
 			);
 			path = convert;
 			sourceTree = "<group>";
@@ -176,19 +151,6 @@
 				BE1DD18C1E3C351200C683B7 /* Info.plist */,
 			);
 			path = convertUITests;
-			sourceTree = "<group>";
-		};
-		D3C09D55E6F9C05FF9C57A0C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				51B283EA61B919E12C4DCFDD /* Pods-convert.debug.xcconfig */,
-				AEABBE76D0A5D3500D0C84B8 /* Pods-convert.release.xcconfig */,
-				49875FF81CBC384ADC3CDA79 /* Pods-convertTests.debug.xcconfig */,
-				60CDB4C301F5C6A5394558E7 /* Pods-convertTests.release.xcconfig */,
-				11276BE5262BFB941ABA7173 /* Pods-convertUITests.debug.xcconfig */,
-				5105917D19D59996147494E9 /* Pods-convertUITests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +273,7 @@
 				BE1DD1751E3C351200C683B7 /* LaunchScreen.storyboard in Resources */,
 				BE1DD1721E3C351200C683B7 /* Assets.xcassets in Resources */,
 				BE1DD1701E3C351200C683B7 /* Main.storyboard in Resources */,
+				9923CCC01E6214C5009367DC /* filtered piano in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,15 +438,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1DD16D1E3C351200C683B7 /* ViewController.swift in Sources */,
-				BE6D756E1E5B622A0052E717 /* Tuner.swift in Sources */,
-				BE6D756A1E5B5EDD0052E717 /* Pitch.swift in Sources */,
 				BE1DD16B1E3C351200C683B7 /* AppDelegate.swift in Sources */,
-				BE6D756C1E5B5F730052E717 /* Note.swift in Sources */,
-				BE6D75661E5B43530052E717 /* DisplayView.swift in Sources */,
 				BE6D75681E5B45930052E717 /* PianoViewController.swift in Sources */,
-				BE6D75771E5D45FA0052E717 /* mantavViewController.swift in Sources */,
-				BE6D75641E5B42000052E717 /* PlotView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -633,7 +589,6 @@
 		};
 		BE1DD1901E3C351200C683B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51B283EA61B919E12C4DCFDD /* Pods-convert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = convert/Info.plist;
@@ -646,7 +601,6 @@
 		};
 		BE1DD1911E3C351200C683B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEABBE76D0A5D3500D0C84B8 /* Pods-convert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = convert/Info.plist;
@@ -659,11 +613,11 @@
 		};
 		BE1DD1931E3C351200C683B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49875FF81CBC384ADC3CDA79 /* Pods-convertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = convertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.convertTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -674,11 +628,11 @@
 		};
 		BE1DD1941E3C351200C683B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60CDB4C301F5C6A5394558E7 /* Pods-convertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = convertTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.convertTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -689,7 +643,6 @@
 		};
 		BE1DD1961E3C351200C683B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11276BE5262BFB941ABA7173 /* Pods-convertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = convertUITests/Info.plist;
@@ -703,7 +656,6 @@
 		};
 		BE1DD1971E3C351200C683B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5105917D19D59996147494E9 /* Pods-convertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = convertUITests/Info.plist;
